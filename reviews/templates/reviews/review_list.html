@@ -8,4 +8,5 @@
             <p>{{ review.get_stars_display }} - {{ review.title }}</p>
         </article>
     {% endfor %}
+    <a href="{% url 'reviews:review_create' %}">口コミ作成ページへ</a>
 {% endblock %}
