@@ -10,6 +10,7 @@ urlpatterns = [
     path('diary/', include('diary.urls')),
     path('reviews/', include('reviews.urls')),
     path('videos/', include('videos.urls')),
+    path('blog/', include('blog.urls')),
     path('', include('myprofile.urls')),
 ]
 
